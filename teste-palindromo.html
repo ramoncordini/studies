@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Teste shawandpartners</title>
+</head>
+<body>
+
+<script language="JavaScript">
+  function palin(pal){
+    var palindroma = true;
+    pal = pal.toUpperCase();
+  
+    for(var i = 0; i < (pal.length / 2); i++){
+      if(pal.charAt(i) != pal.charAt(pal.length - i - 1))
+        palindroma = false;
+    }
+    return palindroma;
+  }
+</script>
+
+<script language="JavaScript">
+  // testa se uma palavra é palindroma
+  var palavra = window.prompt("Informe a palavra", "palavra");
+  if(palin(palavra))
+    alert("Esta palavra é palindroma");
+  else
+    alert("Esta palavra NÃO é palindroma"); 
+</script>
+
+</body>
+</html>
