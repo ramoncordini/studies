@@ -1,2 +1,2 @@
-# teste
-Teste em javascript verifica se a palavra é um palíndromo
+# Studies
+Check if word is palindrome - javascript
